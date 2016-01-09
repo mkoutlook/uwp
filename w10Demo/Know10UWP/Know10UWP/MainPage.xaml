@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="Know10UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Know10UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+            <TextBox x:Name="textBox" HorizontalAlignment="Right" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Margin="0,50,0,0"/>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+        <StackPanel Orientation="Vertical">
+                <Button x:Name="btnClick" Content="click" HorizontalAlignment="Left" VerticalAlignment="Top" Click="buttonClick"/>
+                <Button x:Name="btnHover" Content="Hover" HorizontalAlignment="Left" VerticalAlignment="Top" Click="buttonHover" ClickMode="Hover"/>
+                <Button x:Name="btnAppBarButton" Content="AppBarButton" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnApbrBtn"/>
+                <Button x:Name="btnPivot" Content="pivot" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnPivot_Click"/>
+                <Button x:Name="btnToggle" Content="ToggleSwitch" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnToggle_Click"/>
+                <Button x:Name="btnSplitView" Content="SplitView" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnSplitView_Click"/>
+                <Button x:Name="btnListView" Content="ListView" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnListView_Click"/>
+                <Button x:Name="btnHyperLink" Content="HyperLink" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnHyperLink_Click"/>
+                <Button x:Name="btnStackpanel" Content="stackpanel" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnStackpanel_Click"/>
+                <Button x:Name="btnAutoSuggestion" Content="Autosuggestion" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnAutoSuggestion_Click"/>
+                <Button x:Name="btnBorder" Content="border" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnBorderdemo"/>
+                <Button x:Name="btnCalender" Content="calender" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnCalenderDemo"/>
+                <Button x:Name="btnCheckbox" Content="checkbx" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnCheckboxDemo"/>
+                <Button x:Name="btnCombobox" Content="combobox" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnComboboxDemo"/>
+                <Button x:Name="btnCommandbar" Content="commandbar" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnCommandbardemo"/>
+                <Button x:Name="btnContentControl" Content="contentControl" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnContentControldemo"/>
+                <Button x:Name="btnContentDialogControl" Content="contentDialog" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnContentDialogdemo"/>
+                <Button x:Name="btnCustomDialog" Content="customDialog" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnCustomDialogde"/>
+                <Button x:Name="btnHub" Content="Hub" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnHubdemo"/>
+                <Button x:Name="btnMenuFlyout" Content="menuFlyout" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnMenuFlyout1"/>
+                <Button x:Name="btnFlipView" Content="flipview" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnFlipviewDemo"/>
+
+                <Button x:Name="btnViewBox" Content="viewbox" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnViewBoxDemo"/>
+                <Button x:Name="btnPopup" Content="popup" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnPopup_Click"/>
+                <Button x:Name="btnRichEdit" Content="richEditBox" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnRichEdit_Click"/>
+                <Button x:Name="btnRichEditBlock" Content="richEditBlock" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnRichEditBlock_Click"/>
+                <Button x:Name="btnSearchbox" Content="searchBox" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnSearchbox_Click"/>
+                <Button x:Name="btnWebView" Content="webView" HorizontalAlignment="Left" VerticalAlignment="Top" Click="webviewClick"/>
+            </StackPanel>
+        </ScrollViewer>
+        <!--<ProgressRing x:Name="progress1" IsActive="True"/>-->
+        <!--<Grid.Background>#76303A</Grid.Background>-->
+    </Grid>
+</Page>

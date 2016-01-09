@@ -1,0 +1,11 @@
+﻿<Application
+    x:Class="Know10UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Know10UWP"
+    RequestedTheme="Light" >
+
+
+
+</Application>
+
